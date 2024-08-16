@@ -45,7 +45,7 @@ export const Sizes = (args, { loaded: { default: Button } }) => (
       Medium compact
     </Button>
     <Button size="large">Large</Button>
-    <Button size="large" compact>
+    <Button size="small" compact>
       Large compact
     </Button>
   </Grid>

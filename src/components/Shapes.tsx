@@ -10,7 +10,7 @@ const Shape = styled.svg<Props>(({ color }) => ({
   height: 100,
   maxWidth: 100,
   fill: color,
-  verticalAlign: 'top',
+  verticalAlign: 'bottom',
 }));
 
 export const Donut = (props: Props) => (
@@ -35,7 +35,7 @@ export const Square = (props: Props) => (
   <Shape
     viewBox="0 0 90 90"
     xmlns="http://www.w3.org/2000/svg"
-    color="#1EA7FD"
+    color="#FFFFFF"
     {...props}
     style={{ borderRadius: 5, ...props.style }}
   >

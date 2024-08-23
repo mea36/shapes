@@ -35,7 +35,7 @@ export const Square = (props: Props) => (
   <Shape
     viewBox="0 0 90 90"
     xmlns="http://www.w3.org/2000/svg"
-    color="#FFFFFF"
+    color="#1EA7FD"
     {...props}
     style={{ borderRadius: 5, ...props.style }}
   >

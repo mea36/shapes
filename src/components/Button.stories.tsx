@@ -8,7 +8,7 @@ export default {
 
 export const Appearances = (args, { loaded: { default: Button } }) => (
   <Grid cols={3}>
-    <Button appearance="secondary">Primary</Button>
+    <Button appearance="primary">Primary</Button>
     <Button appearance="primary" outline>
       Primary outline
     </Button>

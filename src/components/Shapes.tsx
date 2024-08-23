@@ -10,7 +10,7 @@ const Shape = styled.svg<Props>(({ color }) => ({
   height: 100,
   maxWidth: 100,
   fill: color,
-  verticalAlign: 'bottom',
+  verticalAlign: 'top',
 }));
 
 export const Donut = (props: Props) => (

@@ -8,7 +8,7 @@ const Container = styled.div({
   display: 'grid',
   gridTemplate: '1fr / 120px 1fr',
   gridGap: '3rem',
-  justifyItems: 'center',
+  justifyItems: 'right',
   padding: '3rem',
 });
 

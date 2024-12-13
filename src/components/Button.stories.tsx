@@ -21,7 +21,7 @@ export const Appearances = (args, { loaded: { default: Button } }) => (
       Secondary outline
     </Button>
     <Button appearance="secondary" disabled>
-      Secondary disabled
+      Secondary dabd
     </Button>
 
     <Button appearance="tertiary">Tertiary</Button>
